@@ -12,9 +12,9 @@ export default function NewMeetupForm({passUp}) {
 
         const newMeetupData = {
             title: title,
-            picture: picture,
+            image: picture,
             address: address,
-            info: info,
+            description: info,
         }
 
         passUp(newMeetupData)

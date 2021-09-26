@@ -51,8 +51,6 @@ function AllMeetupsPage() {
     
   },[setLoadedMeetups,setIsLoading])
 
-  console.log(loadedMeetups);
-
   if (isLoading) {
     return (
       <section>
