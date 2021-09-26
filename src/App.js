@@ -1,4 +1,5 @@
 import { Route, Switch } from 'react-router-dom';
+import Footer from './components/layout/Footer';
 
 import AllMeetupsPage from './pages/AllMeetups';
 import NewMeetupPage from './pages/NewMeetup';
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route path='/' exact>
           <AllMeetupsPage />
+          <Footer />
         </Route>
         <Route path='/new-meetup'>
           <NewMeetupPage />

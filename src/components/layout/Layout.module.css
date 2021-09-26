@@ -3,3 +3,9 @@
   width: 90%;
   max-width: 50rem;
 }
+
+/* main::after {
+  content: '';
+  display: block;
+  height: 4rem;
+} */
