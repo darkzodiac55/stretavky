@@ -42,7 +42,7 @@ function AllMeetupsPage() {
           ...data[key]
         }
         setLoadedMeetups((prev)=>[...prev, nmeetup])
-        
+                                                            /////////ulozit vsetky id co nacita a tie ID pouzit na checknutie local storage
       }
 
       setIsLoading(false)

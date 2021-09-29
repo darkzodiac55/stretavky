@@ -11,8 +11,17 @@ function MeetupItem(props) {
   function toggleFavorites(params) {
     if (isItemFav) {
       FavoritesCtx.removeFavorite(props.id)
+      localStorage.removeItem(`${props.id}`)
     } else {
       FavoritesCtx.addFavorite({
+        key: props.id,
+        id: props.id,
+        image: props.image,
+        title: props.title,
+        address: props.address,
+        description: props.description
+      })
+      localStorage.setItem(`${props.id}`, {
         key: props.id,
         id: props.id,
         image: props.image,
