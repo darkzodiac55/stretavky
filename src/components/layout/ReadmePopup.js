@@ -6,12 +6,15 @@ export default function Readme(props) {
 
     return (
         <div className={classes.readme}>
-            <span className={classes.xer} onClick={()=>props.shown((prev)=>!prev)}>×</span>
-            <p>ES6 module and class based drag and drop example. Optimized and built using webpack with cache busting implemented
-                on the files.</p>
+            <span className={classes.xer} onClick={() => props.shown((prev) => !prev)}>×</span>
+            <p>
 
-            <p>Drag and drop príklad postavený na ES6 moduloch a klasách. Skompletizovaný a optimalizovaný cez webpack s "cache
-                bustingom" na suboroch.</p>
+                Mini aplikácia na menežovanie napríklad firemných "stretávok".</p>
+
+                <p>Použitý React s najnovšími fíčurami (hooks, functional components, app wide context) a simple backend databáza/API s použitím Google Firebase. Obľúbené su handled cez localStorage.
+                </p>
+
+
 
 
         </div>
