@@ -7,7 +7,7 @@ function NewMeetupPage() {
   
   async function getNewMeetup(meetup) {
     
-    let response = await fetch('https://stretavky-backend-default-rtdb.firebaseio.com/meetups.json', {
+    let response = await fetch('https://stretavky-backend-2-default-rtdb.firebaseio.com/meetups.json', {
       method: 'POST',
       body: JSON.stringify(meetup),
       headers: {

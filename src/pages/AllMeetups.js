@@ -29,7 +29,7 @@ function AllMeetupsPage() {
   useEffect(()=>{
     setIsLoading(true)
     async function fetchMeetups(params) {
-      let response = await fetch('https://stretavky-backend-default-rtdb.firebaseio.com/meetups.json')
+      let response = await fetch('https://stretavky-backend-2-default-rtdb.firebaseio.com/meetups.json')
       let data = await response.json()
       
       for (const key in data) {
